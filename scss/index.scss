@@ -1,5 +1,9 @@
 @use 'variables';
 
+.mobile {
+    min-height: 85%;
+    height: max-content !important; 
+}
 .landing-section {
     min-height: 105%;
     padding-top: 10%;
