@@ -1,1 +1,268 @@
-Hello
+<html>
+    <head>
+        <title>Jade Sessions | Full Stack Engineer</title>
+        <link rel="icon" href="/img/common/icon.png">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/style.css">
+
+        <link rel="stylesheet" href="https://use.typekit.net/xjp0szb.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="/js/main.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <div class="loading">
+            <img src="/img/common/loading.gif" />
+        </div>
+        <div class="d-none content">
+            <div id='navbar'></div>
+            <div class="side-menu-container">
+                <ul class="side-menu">
+                    <li id="landing-dot" class="menu-dot"></li>
+                    <li id="about-dot" class="menu-dot"></li>
+                    <li id="skills-dot" class="menu-dot"></li>
+                    <li id="projects-dot" class="menu-dot"></li>
+                    <li id="art-dot" class="menu-dot"></li>
+                    <li id="speaking-dot" class="menu-dot"></li>
+                </ul>
+            </div>
+            <div id='landing' class>
+                <div class="landing-section d-none d-xl-flex desktop">
+                    <div class="row w-100">
+                        <div id="landing-left" class="col-6">
+                            <div class='desc'>
+                                <h2 id="hello">Hi!</h2>
+                                <h1>I'm Jade</h1>
+                                <hr/>
+                                <h3 class="mt-4">Engineer | Tinkerer | Avenger In Training</h3>
+                                <div class="btns mt-4">
+                                    <a href="/assets/jadesessions_resume.pdf" class="btn btn-primary w-100" download>
+                                        Resume
+                                    </a>
+                                </div>
+                                <a href="#about" id="scroll-down"
+                                class="scroll-down mx-auto mt-3"
+                                address="true"></a>
+                            </div>
+                        </div>
+                        <div id="landing-right" class="col-6">
+                            <div class='container'>
+                                <img src="/img/index/landing-panel.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile -->
+                <div class="d-xl-none mobile">
+                    <div class="pt-4 pl-5 pr-5">
+                        <h1 class="">Jade Sessions</h1>
+                        <hr/>
+                        <h3 class="mt-3">Engineer | Tinkerer | Avenger In Training</h3>
+                        <a href="#about" class="scroll-down mx-auto mt-3" address="true"></a>
+                    </div>
+
+                    <div class="img-container">
+                        <img src="/img/index/landing-panel.png"/>
+                    </div>
+                </div>
+            </div>
+            <div id='about' class='landing-section'>
+                <div class="desktop d-none d-lg-block">
+                    <div class="container">
+                        <img src="/img/index/about.png">
+                    </div>
+                    <div class="desc">
+                        <h1>Hiya!</h1>
+                        <h1>
+                            My name is Jade Sessions and I love to
+                            <span class="build">build</span> and
+                            <span class="create">create</span> things.
+                        </h1>
+                        <p>I am a bold, passionate, and curious <span class="">full stack</span> software engineer
+                        based in NYC. Creating products that are both functional
+                        and beautiful is my strength. With special attention
+                        to the end user, I am able to use my unique perspective
+                        to create impactful software solutions.<br/><br/>
+                        Aside from software, I am also deeply passionate about
+                        foreign languages and cultures as well as the arts.
+                        All these disciplines shape who I am and broaden my outlook.
+                            <br>
+                            <a class="article-link" target="_blank" href="https://www.goldmansachs.com/careers/blog/posts/jade-journey-girls-who-code-gs.html"> Read About My Engineering Journey!</a>
+                        </p>
+                        <a href="about.html" class="btn btn-primary">
+                            More about me
+                        </a>
+                    </div>
+                </div>
+                <!-- Mobile -->
+                <div class="mobile d-lg-none">
+                    <h1>Hiya!</h1>
+                    <h1>
+                        My name is Jade Sessions and I love to
+                        <span class="build">build</span> and
+                        <span class="create">create</span> things.
+                    </h1>
+                    <img src="/img/index/about-mobile.jpeg"/>
+                    <p>I am a bold, passionate, and curious <span class="">full stack</span> software engineer
+                    based in NYC. Creating products that are both functional
+                    and beautiful is my strength. With special attention
+                    to the end user, I am able to use my unique perspective
+                    to create impactful software solutions.<br/><br/>
+                    Aside from software, I am also deeply passionate about
+                    foreign languages and cultures as well as the arts.
+                    All these disciplines shape who I am and broaden my outlook.
+                        <br>
+                        <a class="article-link" target="_blank" href="https://www.goldmansachs.com/careers/blog/posts/jade-journey-girls-who-code-gs.html"> Read About My Engineering Journey!</a>
+                    </p>
+                    <a href="about.html" class="btn btn-primary">
+                        More about me
+                    </a>
+                </div>
+            </div>
+            <div id='skills' class='landing-section'>
+                <div class="row desktop d-none d-lg-flex">
+                    <div class="col-lg-6 container">
+                        <h1>My
+                            <br>(Technical)
+                            <br>Superpowers
+                        </h1>
+                        <div class="row pt-2">
+                            <div class="col"><p class="skill">React</p></div>
+                             <div class="col"><p class="skill">React Native</p></div>
+                             <div class="col"><p class="skill">Typescript</p></div>
+                             <div class="w-100"></div>
+                             <div class="col"><p class="skill">Java</p></div>
+                             <div class="col"><p class="skill">Python</p></div>
+                             <div class="col"><p class="skill">Jest</p></div>
+                             <div class="w-100"></div>
+                            <div class="col"><p class="skill">AngularJS</p></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="/img/index/skills.png">
+                    </div>
+                </div>
+                <div class="mobile d-lg-none">
+                    <h1>My
+                        <br>(Technical)
+                        <br>Superpowers
+                    </h1>
+                    <img src="/img/index/skills-mobile.png">
+                    <div class="row pt-2 h-25">
+                        <div class="col"><p class="skill">React</p></div>
+                         <div class="col"><p class="skill">React Native</p></div>
+                         <div class="w-100"></div>
+
+                         <div class="col"><p class="skill">Typescript</p></div>
+                         <div class="col"><p class="skill">Java</p></div>
+                         <div class="w-100"></div>
+
+                         <div class="col"><p class="skill">Python</p></div>
+                         <div class="col"><p class="skill">Jest</p></div>
+                         <div class="w-100"></div>
+                        <div class="col"><p class="skill">JavaScript</p></div>
+                    </div>
+                </div>
+            </div>
+            <div id='projects' class='landing-section'>
+                <div class="container">
+                    <h1>Recent Work</h1>
+                    <p><a href="/portfolio.html" class="btn btn-primary">
+                        View Portfolio
+                    </a></p>
+                </div>
+                <div class="row">
+                    <div class="order-2 order-lg-1 col-12 col-lg-6">
+                        <video class="d-none d-lg-block w-100 h-100"
+                            src="/img/portfolio/toki/walkthrough.mp4" controls></video>
+                        <video class="d-lg-none w-100 mb-5"
+                            src="/img/portfolio/toki/walkthrough.mp4" controls></video>
+                    </div>
+                    <div class="order-lg-2 col-12 col-lg-6 desc">
+                        <h1 class="title">Toki</h1>
+                        <p>
+                            Toki is a word play game where users receive a
+                            random category and have to enter words that begin
+                            with the last letter of the computer's word. I originally
+                            created this app in Korean as it is inspired by the
+                            popular game 'kkeutmal-isgi'. This was an exercise in
+                            furthering my React Native skills.
+                        </p>
+                        <p>
+                            I designed and implemented the entire app as a
+                            fun solo project.
+                        </p>
+                        <p><a class="btn btn-primary" href="portfolio/toki.html">Learn More</a></p>
+                        <hr/>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <img src="img/index/figma.svg"/>
+                                <p class="text-center">Figma</p>
+                            </div>
+                            <div>
+                                <img src="img/index/redux.png"/>
+                                <p class="text-center">Redux</p>
+                            </div>
+                            <div>
+                                <img class="wider" src="img/index/react-and-typescript.png"/>
+                                <p class="text-center">React Native <br>& Typescript</p>
+                            </div>
+                            <div>
+                                <img src="img/index/jest.png"/>
+                                <p class="text-center">Jest</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id='art' class='landing-section'>
+                <div class="container mb-4">
+                    <h1>I draw, <span id="highlight">here and there.</span></h1>
+                </div>
+                <div class="row">
+                    <img class="col-12 col-lg-4" src="img/index/sea-girl.png"/>
+                    <img class="col-12 col-lg-4" src="img/index/bubble-tea.png"/>
+                    <img class="col-12 col-lg-4" src="img/index/peony.png"/>
+                </div>
+            </div>
+            <div id='speaking' class='page landing-section'>
+                <div class="d-lg-flex row">
+                    <div class="col-12 col-lg-6">
+                        <h1>Public
+                            <br/>Speaking
+                        </h1>
+                        <p>
+                            I have spoken at numerous different events for various
+                            different topics. These topics include but are not limited
+                            to female empowerment, career navigation, technology, and
+                            diversity. Check out my about page for a full list of past
+                            appearances!
+                        </p>
+                        <hr>
+                        <h4>Previous Appearances</h4>
+                        <p>
+                            • Rewriting the Code Panelist in connection with Goldman Sachs (2020)
+                            <br>• Girls Who Code Panelist for Open House and Graduation in connection with Goldman Sachs (Several times 2015-2020)
+                            <br>• Girls Who Code Representative at Bloomberg's International Women's Day (2016)
+                            <br>• Mentor at PixieHacks() Hackathon (2016)
+                        </p>
+                    </div>
+                    <div class="col-6 d-none d-lg-block">
+                        <img src="img/index/star-trek.png"/>
+                    </div>
+                </div>
+            </div>
+            <div id='footer'/>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html>

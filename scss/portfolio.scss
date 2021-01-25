@@ -1,0 +1,29 @@
+@use 'variables';
+
+.portfolio-page {
+    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-top: 3%;
+    img {
+        width: 100%;
+        height: 300px;
+        opacity: .5;
+    }
+    .card:hover{
+        img{
+            opacity: 1;
+        }
+    }
+    a {
+        background-color: white;
+        color: variables.$quaternary-color;
+        border-color: variables.$quaternary-color;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+.work-example h1{
+    word-wrap: break-word;
+}

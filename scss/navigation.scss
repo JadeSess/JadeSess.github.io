@@ -1,0 +1,55 @@
+@use 'variables';
+
+.navbar-collapse a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar {
+    background: white !important;
+    a {
+        font-size: 20px;
+        text-align: center;
+        &:hover {
+            color: variables.$quaternary-color !important;
+          .nav-underline {
+              height: 5px;
+              width: 65px;
+              border-radius: 5px;
+              background-color: variables.$tertiary-color;
+              text-align: center;
+          }
+        }
+        &.active {
+            color: variables.$primary-color !important;
+            .nav-underline {
+                height: 5px;
+                width: 67px;
+                border-radius: 5px;
+                background-color: variables.$gold;
+            }
+        }
+    }
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
