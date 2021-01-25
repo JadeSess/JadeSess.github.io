@@ -104,6 +104,7 @@
     }
     .mobile {
         min-height: 85%;
+        height: max-content;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
