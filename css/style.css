@@ -137,8 +137,14 @@ h2, h3, h1 {
     transform: translateY(-5px);
   }
 }
+.mobile {
+  height: max-content !important;
+  background-color: red;
+}
+
 .landing-section {
-  min-height: 105%;
+  min-height: 100%;
+  height: max-content !important;
   padding-top: 10%;
 }
 
@@ -236,7 +242,8 @@ h2, h3, h1 {
   height: 90%;
 }
 #landing .mobile {
-  height: 85%;
+  min-height: 85%;
+  height: max-content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -259,48 +266,6 @@ h2, h3, h1 {
 #landing .mobile .img-container img {
   width: 100%;
   height: 100%;
-}
-
-#about .build {
-  color: #FD8F52;
-}
-#about .create {
-  color: #C73866;
-}
-#about .desktop {
-  height: 100%;
-}
-#about .desktop .desc {
-  max-height: 55vw;
-  width: 50%;
-  border-radius: 20px;
-  background-color: #FBFBFB;
-  padding: 50px;
-  position: relative;
-  bottom: 60vw;
-  left: 35vw;
-}
-#about .desktop .desc h1 {
-  font-size: 2.3vw;
-}
-#about .desktop .desc p {
-  font-weight: 400;
-  font-size: 16px;
-}
-#about .mobile h1 {
-  font-size: 7.5vw;
-  padding-right: 3vw;
-}
-#about .mobile img {
-  margin-top: 3vh;
-  width: 100%;
-  height: 40vh;
-}
-#about .mobile p {
-  margin-top: 3vh;
-}
-#about .mobile a {
-  width: 100%;
 }
 
 #skills {
@@ -336,9 +301,6 @@ h2, h3, h1 {
   padding-bottom: 15px;
 }
 
-#projects {
-  padding-top: 4%;
-}
 #projects .container {
   padding-bottom: 50px;
 }
@@ -473,6 +435,9 @@ h2, h3, h1 {
   width: 100%;
   height: 300px;
   opacity: 0.5;
+}
+.portfolio-page .card-title {
+  font-weight: 600;
 }
 .portfolio-page .card:hover img {
   opacity: 1;
