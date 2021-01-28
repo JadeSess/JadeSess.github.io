@@ -139,7 +139,6 @@ h2, h3, h1 {
 }
 .mobile {
   height: max-content !important;
-  background-color: red;
 }
 
 .landing-section {
@@ -266,6 +265,49 @@ h2, h3, h1 {
 #landing .mobile .img-container img {
   width: 100%;
   height: 100%;
+}
+
+#about {
+  background-color: green;
+  max-height: max-content !important;
+}
+#about .build {
+  color: #FD8F52;
+}
+#about .create {
+  color: #C73866;
+}
+#about .desktop .desc {
+  max-height: 55vw;
+  width: 50%;
+  border-radius: 20px;
+  background-color: #FBFBFB;
+  padding: 50px;
+  position: relative;
+  bottom: 60vw;
+  left: 35vw;
+}
+#about .desktop .desc h1 {
+  font-size: 2.3vw;
+}
+#about .desktop .desc p {
+  font-weight: 400;
+  font-size: 16px;
+}
+#about .mobile h1 {
+  font-size: 7.5vw;
+  padding-right: 3vw;
+}
+#about .mobile img {
+  margin-top: 3vh;
+  width: 100%;
+  height: 40vh;
+}
+#about .mobile p {
+  margin-top: 3vh;
+}
+#about .mobile a {
+  width: 100%;
 }
 
 #skills {
