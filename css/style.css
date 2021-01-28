@@ -137,16 +137,6 @@ h2, h3, h1 {
     transform: translateY(-5px);
   }
 }
-.mobile {
-  height: max-content !important;
-}
-
-.landing-section {
-  min-height: 100%;
-  height: max-content !important;
-  padding-top: 10%;
-}
-
 .side-menu-container {
   z-index: 999;
   position: fixed;
@@ -201,6 +191,15 @@ h2, h3, h1 {
   content: "";
   border: 2px solid #de9e28;
   border-width: 0px 0 2px 2px;
+}
+
+.mobile {
+  height: max-content !important;
+}
+
+.landing-section {
+  min-height: 100%;
+  padding-top: 10%;
 }
 
 #landing .desktop {
@@ -267,15 +266,14 @@ h2, h3, h1 {
   height: 100%;
 }
 
-#about {
-  background-color: green;
-  max-height: max-content !important;
-}
 #about .build {
   color: #FD8F52;
 }
 #about .create {
   color: #C73866;
+}
+#about .desktop {
+  height: 100%;
 }
 #about .desktop .desc {
   max-height: 55vw;
@@ -331,12 +329,12 @@ h2, h3, h1 {
   width: 80%;
 }
 #skills .mobile h1 {
-  font-size: 36px;
+  font-size: 7.5vw;
 }
 #skills .mobile img {
   margin-top: 3vh;
   width: 100%;
-  height: 30%;
+  height: 45vh;
 }
 #skills .mobile .skill {
   padding-top: 15px;
@@ -345,9 +343,6 @@ h2, h3, h1 {
 
 #projects .container {
   padding-bottom: 50px;
-}
-#projects .container .row {
-  min-height: 100%;
 }
 #projects .container h1 {
   text-align: center;
@@ -363,6 +358,15 @@ h2, h3, h1 {
 #projects .container a:hover {
   background-color: #FD8F52;
   border-color: #FD8F52;
+}
+#projects .vid-container {
+  height: fit-content;
+}
+#projects .vid-container #desktop-vid {
+  height: 70vh;
+}
+#projects .desc {
+  height: fit-content;
 }
 #projects .desc h1 {
   font-size: 36px;
@@ -386,9 +390,6 @@ h2, h3, h1 {
   width: 100px;
 }
 
-#art {
-  padding-top: 8%;
-}
 #art .container {
   justify-content: center;
   align-items: center;
@@ -400,14 +401,10 @@ h2, h3, h1 {
   background-color: #FDCD7580;
   font-style: italic;
 }
-#art .container img {
-  width: 100%;
-  height: 100%;
-}
 
 #speaking img {
   width: 90%;
-  height: 97%;
+  height: 90%;
 }
 #speaking h1 {
   padding-bottom: 30px;

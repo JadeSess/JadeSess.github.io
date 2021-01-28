@@ -1,17 +1,5 @@
 @use 'variables';
 
-.mobile {
-    // min-height: 85%;
-    height: max-content !important;
-    // background-color: red;
-}
-
-.landing-section {
-    min-height: 100%;
-    height: max-content !important;
-    padding-top: 10%;
-}
-
 .side-menu-container {
     z-index: 999;
     position: fixed;
@@ -68,6 +56,14 @@
     border-width: 0px 0 2px 2px;
 }
 
+.mobile {
+    height: max-content !important;
+}
+
+.landing-section {
+    min-height: 100%;
+    padding-top: 10%;
+}
 
 #landing {
     .desktop {
@@ -138,8 +134,6 @@
 }
 
 #about {
-    background-color: green;
-    max-height: max-content !important;
     .build {
         color: variables.$tertiary-color;
     }
@@ -147,7 +141,7 @@
         color: variables.$primary-color;
     }
     .desktop {
-        // height: 100%;
+        height: 100%;
         .desc {
             max-height: 55vw;
             width: 50%;
@@ -187,7 +181,6 @@
 
 #skills {
     display: flex;
-    // height: 2000px;
     .skill {
         text-align: center;
         padding-top: 35px;
@@ -209,12 +202,12 @@
     }
     .mobile  {
         h1 {
-            font-size: 36px;
+            font-size: 7.5vw;
         }
         img {
             margin-top: 3vh;
             width: 100%;
-            height: 30%;
+            height: 45vh;
         }
         .skill {
             padding-top: 15px;
@@ -225,9 +218,6 @@
 
 #projects {
     .container {
-        .row {
-            min-height: 100%;
-        }
         padding-bottom: 50px;
         h1 {
             text-align: center;
@@ -246,7 +236,14 @@
             border-color: variables.$tertiary-color;
         }
     }
+    .vid-container {
+        height: fit-content;
+        #desktop-vid {
+            height: 70vh;
+        }
+    }
     .desc {
+        height: fit-content;
         h1 {
             font-size: 36px;
         }
@@ -272,7 +269,6 @@
 }
 
 #art {
-    padding-top: 8%;
     .container {
         justify-content: center;
         align-items: center;
@@ -283,17 +279,13 @@
             background-color: variables.$secondary-color-lighter;
             font-style: italic;
         }
-        img {
-            width: 100%;
-            height: 100%;
-        }
     }
 }
 
 #speaking {
     img {
         width: 90%;
-        height: 97%;
+        height: 90%;
     }
     h1 {
         padding-bottom: 30px;
