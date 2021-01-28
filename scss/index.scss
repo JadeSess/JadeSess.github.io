@@ -136,53 +136,54 @@
         }
     }
 }
-//
-// #about {
-//     max-height: max-content !important;
-//     .build {
-//         color: variables.$tertiary-color;
-//     }
-//     .create {
-//         color: variables.$primary-color;
-//     }
-//     .desktop {
-//         // height: 100%;
-//         .desc {
-//             max-height: 55vw;
-//             width: 50%;
-//             border-radius: 20px;
-//             background-color: #FBFBFB;
-//             padding: 50px;
-//             position: relative;
-//             bottom: 60vw ;
-//             left: 35vw;
-//             h1 {
-//                 font-size: 2.3vw;
-//             }
-//             p {
-//                 font-weight: 400;
-//                 font-size: 16px;
-//             }
-//         }
-//     }
-//     .mobile {
-//         h1 {
-//             font-size: 7.5vw;
-//             padding-right: 3vw;
-//         }
-//         img {
-//             margin-top: 3vh;
-//             width: 100%;
-//             height: 40vh;
-//         }
-//         p {
-//             margin-top: 3vh;
-//         }
-//         a {
-//             width: 100%;
-//         }
-//     }
-// }
+
+#about {
+    background-color: green;
+    max-height: max-content !important;
+    .build {
+        color: variables.$tertiary-color;
+    }
+    .create {
+        color: variables.$primary-color;
+    }
+    .desktop {
+        // height: 100%;
+        .desc {
+            max-height: 55vw;
+            width: 50%;
+            border-radius: 20px;
+            background-color: #FBFBFB;
+            padding: 50px;
+            position: relative;
+            bottom: 60vw ;
+            left: 35vw;
+            h1 {
+                font-size: 2.3vw;
+            }
+            p {
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+    }
+    .mobile {
+        h1 {
+            font-size: 7.5vw;
+            padding-right: 3vw;
+        }
+        img {
+            margin-top: 3vh;
+            width: 100%;
+            height: 40vh;
+        }
+        p {
+            margin-top: 3vh;
+        }
+        a {
+            width: 100%;
+        }
+    }
+}
 
 #skills {
     display: flex;
