@@ -198,7 +198,7 @@ h2, h3, h1 {
 }
 
 .mobile-header h1 {
-  font-size: 7.5vw;
+  font-size: 48px;
 }
 
 .landing-section {
@@ -330,9 +330,6 @@ h2, h3, h1 {
 #skills .desktop img {
   padding-left: 3vw;
   width: 80%;
-}
-#skills .mobile h1 {
-  font-size: 7.5vw;
 }
 #skills .mobile img {
   margin-top: 3vh;
