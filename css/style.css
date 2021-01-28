@@ -397,7 +397,7 @@ h2, h3, h1 {
 #art .container h1 {
   text-align: center;
 }
-#art .container #highlight {
+#art .container .highlight {
   background-color: #FDCD7580;
   font-style: italic;
 }
