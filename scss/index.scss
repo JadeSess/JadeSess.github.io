@@ -60,6 +60,10 @@
     height: max-content !important;
 }
 
+.mobile-header h1 {
+    font-size: 7.5vw;
+}
+
 .landing-section {
     min-height: 100%;
     padding-top: 10%;
@@ -162,7 +166,6 @@
     }
     .mobile {
         h1 {
-            font-size: 7.5vw;
             padding-right: 3vw;
         }
         img {
@@ -244,7 +247,7 @@
     }
     .desc {
         height: fit-content;
-        h1 {
+        h2 {
             font-size: 36px;
         }
         a {
@@ -279,6 +282,10 @@
             background-color: variables.$secondary-color-lighter;
             font-style: italic;
         }
+    }
+    img {
+        width: 100%;
+        height: 100%;
     }
 }
 
