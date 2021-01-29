@@ -33,8 +33,11 @@
 
 .github-logo {
     text-align: center;
-    img {
-        height: 40px;
-        width: 50px;
+    a {
+        color: variables.$dark-color;
+    }
+    i {
+        font-size: 24px;
+        margin-right: 7px;
     }
 }

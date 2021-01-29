@@ -87,6 +87,9 @@ h2, h3, h1 {
   color: white;
   text-align: center;
 }
+#footer i {
+  font-size: 20px;
+}
 
 .navbar-collapse a {
   font-weight: 700;
@@ -500,9 +503,12 @@ h2, h3, h1 {
 .github-logo {
   text-align: center;
 }
-.github-logo img {
-  height: 40px;
-  width: 50px;
+.github-logo a {
+  color: 323232;
+}
+.github-logo i {
+  font-size: 24px;
+  margin-right: 7px;
 }
 
 /*# sourceMappingURL=style.css.map */
