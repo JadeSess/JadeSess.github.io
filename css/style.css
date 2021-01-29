@@ -497,4 +497,12 @@ h2, h3, h1 {
   word-wrap: break-word;
 }
 
+.github-logo {
+  text-align: center;
+}
+.github-logo img {
+  height: 40px;
+  width: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
